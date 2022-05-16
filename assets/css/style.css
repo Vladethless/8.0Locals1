@@ -854,7 +854,7 @@ mobile menu
 0.7 service-area start
 =======================================*/
 .service-area{
-  padding: 100px 0 70px;
+  padding: 10px 0 70px;
   background: #f5f5f5;
 }
 .section-title span{
@@ -1495,7 +1495,7 @@ mobile menu
 .blog-content {
     text-align: center;
     background: #fff;
-    padding: 25px 45px 10px;
+    padding: 80px 45px 10px;
 }
 .blog-content p{
   line-height: 30px;
@@ -2228,7 +2228,7 @@ mobile menu
 5.0 blog-page-area start
 ========================================*/
 .blog-page-area .blog-item {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .blog-page-area .blog-item .post-meta {
