@@ -267,12 +267,13 @@ a:focus {
 .account_login-area .account-item:last-child{
     padding-right: 0;
 }
-.account_login-area .account-item h5 {
- font-size: 16px;
- font-family: 'Roboto', sans-serif;
+.account_login-area .account-item p {
+ font-size: 20px;
+ font-weight: 500;
+ font-family: 'Oswald', sans-serif;
  margin-bottom: 0;
 }
-.account_login-area .account-item h5 span {
+.account_login-area .account-item p span {
  font-size: 18px;
  margin-bottom: 10px;
  font-family: 'Oswald', sans-serif;
@@ -671,21 +672,13 @@ mobile menu
 .hero .slick-dots button {
  display: none;
 }
-.hero .hero-slider .slide-caption > h2,
 .hero .hero-slider .slide-caption > p,
 .hero .hero-slider .slide-caption > .btns {
   opacity: 0;
 }
 
-.hero .hero-slider .slick-list .slick-current .slide-caption > p {
-  -webkit-animation: fadeInTopSlow 1.5s 0.8s forwards;
-  -moz-animation: fadeInTopSlow 1.5s 0.8s forwards;
-  -o-animation: fadeInTopSlow 1.5s 0.8s forwards;
-  -ms-animation: fadeInTopSlow 1.5s 0.8s forwards;
-  animation: fadeInTopSlow 1.5s 0.8s forwards;
-}
 
-.hero .hero-slider .slick-list .slick-current .slide-caption > h2 {
+.hero .hero-slider .slick-list .slick-current .slide-caption > p {
   -webkit-animation: fadeInLeftSlow 1.5s 0.8s forwards;
   -moz-animation: fadeInLeftSlow 1.5s 0.8s forwards;
   -o-animation: fadeInLeftSlow 1.5s 0.8s forwards;
@@ -715,7 +708,7 @@ mobile menu
   color: #c1b696;
 
 }
-.hero-style-1 .slide-caption h2, .hero-style-2 .slide-caption h2 {
+.hero-style-1 .slide-caption p, .hero-style-2 .slide-caption p {
   font-size: 60px;
   font-weight: 400;
   color: white;
@@ -724,7 +717,7 @@ mobile menu
 }
 
 @media (max-width: 450px) {
-  .hero-style-1 .slide-caption h2, .hero-style-2 .slide-caption h2 {
+  .hero-style-1 .slide-caption p, .hero-style-2 .slide-caption p {
     font-size: 30px;
   }
 }
@@ -792,14 +785,14 @@ mobile menu
 .about-content .about-icon i{
   color:#34ccff;
 }
-.about-content h2{
+.about-content h1{
   font-size: 30px;
   font-weight: 700;
   position: relative;
   padding-bottom:8px;
   margin-bottom: 30px;
 }
-.about-content h2:before{
+.about-content h1:before{
   content: "";
   position: absolute;
   left: 0;
@@ -1123,7 +1116,7 @@ mobile menu
 .counter-area .odometer.odometer-auto-theme, .counter-area .odometer.odometer-theme-default {
     line-height: 0.8em;
 }
-.counter-area .counter-grids .grid h2 {
+.counter-area .counter-grids .grid .like_p {
     font-size: 36px;
     font-weight: bold;
     color: #fff;
@@ -1133,7 +1126,7 @@ mobile menu
     position: relative;
     font-family: 'Oswald', sans-serif;
 }
-.counter-area .counter-grids .grid h2:before{
+.counter-area .counter-grids .grid .like_p:before{
     content: "";
     position: absolute;
     left: 0;
@@ -1287,12 +1280,12 @@ mobile menu
     top: -82px;
     left: 5%;
 }
-.testimonial-item p {
+.testimonial-item .main_p {
     padding-top: 50px;
     position: relative;
     font-size: 18px;
 }
-.testimonial-item p:before{
+.testimonial-item .main_p:before{
     position: absolute;
     left: 47%;
     top:0;
@@ -1301,7 +1294,7 @@ mobile menu
     color: #999;
     font-size: 30px;
 }
-.testimonial-item h4{
+.testimonial-item .like_h4{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -1703,7 +1696,7 @@ mobile menu
   padding-top: 10px;
   display: block;
 }
-.footer-top h3{
+.footer-top h4{
   font-size: 36px;
   color:#fff;
   margin-bottom: 20px;
@@ -1781,7 +1774,7 @@ mobile menu
 .about-area.about-style-2 .content{
  padding: 50px;
 }
-.about-area.about-style-2 .about-content h2{
+.about-area.about-style-2 .about-content h1{
  color:#fff;
 }
 .about-area.about-style-2 .about-content p {
@@ -2013,11 +2006,13 @@ mobile menu
     padding-bottom: 100px;
 }
 
-.hero-style-3 .slide-caption h2 span, .hero-style-3 .slide-caption h2 span {
+.hero-style-3 .slide-caption p span, .hero-style-3 .slide-caption p span {
     background: rgba(20, 36, 64, 0.5);
     margin-bottom: 10px;
     padding: 5px 20px 13px;
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
 }
 .section-item-3 .section-icon i.fi {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, .09);
@@ -2161,7 +2156,7 @@ mobile menu
     padding-top: 85px;
 }
 
-.breadcumb-wrap h2 {
+.breadcumb-wrap h1 {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 10px;
