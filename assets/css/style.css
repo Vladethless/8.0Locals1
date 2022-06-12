@@ -1050,7 +1050,7 @@ mobile menu
 ===========================================*/
 .counter-area{
   padding: 135px 0 0;
-  background: url(../images/counter/2.jpg) no-repeat center top / cover;
+  background: url(../images/index_9.jpg) no-repeat center top / cover;
   position: relative;
   background-attachment: fixed;
 }
@@ -1222,7 +1222,7 @@ mobile menu
 1.2 testimonial-area start
 =========================================*/
 .testimonial-area{
-  background: url(../images/testimonial/1.jpg) no-repeat center top / cover;
+  background: url(../images/index_10.jpg) no-repeat center top / cover;
   padding: 100px 0;
   position: relative;
 }
@@ -2068,7 +2068,7 @@ mobile menu
     font-size: 25px;
 }
 .service-area.service-style-3{
-    background: url(../images/service/bg.jpg) no-repeat center center / cover; 
+    background: url(../images/bg_2.jpg) no-repeat center center / cover; 
     position: relative;
 }
 .service-area.service-style-3:before{
@@ -2133,8 +2133,8 @@ mobile menu
 =======================================*/
 
 .breadcumb-area {
-    background: url(../images/breadcumb/bg.jpg) no-repeat center top / cover;
-    min-height: 550px;
+    background: url(../images/bg.jpg) no-repeat center top / cover;
+    min-height: 300px;
     position: relative;
     display: flex;
     justify-content: center;
