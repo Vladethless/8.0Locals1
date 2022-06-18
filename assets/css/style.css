@@ -2240,6 +2240,12 @@ mobile menu
 /*.====================================
 5.0 blog-page-area start
 ========================================*/
+.blog-content-1 .untitle{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+ color: #34ccff;; 
+}
 .blog-page-area .blog-item {
     padding-bottom: 10px;
 }
